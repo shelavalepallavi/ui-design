@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header .time {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+main .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 208px;
+  height: 40px;
+  background: rgba(116, 170, 128, 0.92);
+  border: 2px solid rgba(116, 170, 128, 0.92);
+  border-radius: 5px;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  outline: none;
+  text-decoration: none;
+}
+.custom-position-sm{
+  position: absolute;
+  top: 40%;
+  right: 47%;
+}
+
+main .second-button{
+  background: rgba(96, 111, 188, 0.92);
+  border: 2px solid rgba(96, 111, 188, 0.92);
+}
+.custom-position-second{
+  position: absolute;
+  bottom: 30%;
+  right: 47%;
+}
+
+main .third-button{
+  background: rgba(207, 76, 139, 0.92);
+  border: 2px solid rgba(207, 76, 139, 0.92);
+}
+.custom-position-third{
+  position: absolute;
+  bottom: 15%;
+  right: 44%;
+}
+.card1{
+  top: 12px;
+  right: 0;
+}
+.card2{
+  bottom: -62px;
+  right: 70px;
+}
+
+
+@media (max-width: 576px) {
+  .custom-position-sm {
+    position: absolute;
+    top: 43%;
+    right: 37%;
+  }
+  .middle-text{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
