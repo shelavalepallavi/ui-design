@@ -32,7 +32,7 @@ main .button {
 .custom-position-sm {
   position: absolute;
   top: 40%;
-  right: 47%;
+  right: 40%;
 }
 
 main .second-button {
@@ -42,8 +42,8 @@ main .second-button {
 
 .custom-position-second {
   position: absolute;
-  bottom: 30%;
-  right: 47%;
+  bottom: 34%;
+  right: 26%;
 }
 
 main .third-button {
@@ -90,18 +90,6 @@ main .third-button {
   color: #FA6B74;
 }
 
-@media (max-width: 576px) {
-  .custom-position-sm {
-    position: absolute;
-    top: 43%;
-    right: 37%;
-  }
-
-  .middle-text {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
 
 
 
