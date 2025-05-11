@@ -28,38 +28,61 @@ main .button {
   outline: none;
   text-decoration: none;
 }
-.custom-position-sm{
+
+.custom-position-sm {
   position: absolute;
   top: 40%;
   right: 47%;
 }
 
-main .second-button{
+main .second-button {
   background: rgba(96, 111, 188, 0.92);
   border: 2px solid rgba(96, 111, 188, 0.92);
 }
-.custom-position-second{
+
+.custom-position-second {
   position: absolute;
   bottom: 30%;
   right: 47%;
 }
 
-main .third-button{
+main .third-button {
   background: rgba(207, 76, 139, 0.92);
   border: 2px solid rgba(207, 76, 139, 0.92);
 }
-.custom-position-third{
+
+.custom-position-third {
   position: absolute;
   bottom: 15%;
   right: 44%;
 }
-.card1{
+
+.card1 {
   top: 12px;
   right: 0;
 }
-.card2{
+
+.card2 {
   bottom: -62px;
   right: 70px;
+}
+
+.welcome-button{
+  width: 208px;
+  height: 48px;
+  border: 0;
+  border-radius: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  box-shadow: 0px 8px 20px rgba(216, 49, 49, 0.2);
+}
+.signup {
+  background: linear-gradient(135deg, #FA6B74 0%, #F89500 100%);
+  color: #FFFFFF;
+}
+.login{
+  color: #FA6B74;
 }
 
 @media (max-width: 576px) {
@@ -68,9 +91,12 @@ main .third-button{
     top: 43%;
     right: 37%;
   }
-  .middle-text{
+
+  .middle-text {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
+
+
 
