@@ -89,7 +89,20 @@ main .third-button {
   background: #fff;
   color: #FA6B74;
 }
-
+.about-para1{
+  font-size: 1rem;
+}
+.about-para2{
+  font-size: 13px;
+}
+@media (min-width: 768px) {
+  .about-para1{
+    font-size: 24px;
+  }
+  .about-para2{
+  font-size: 1rem;
+}
+}
 
 
 
