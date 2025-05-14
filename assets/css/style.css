@@ -105,5 +105,16 @@ main .third-button {
 }
 }
 
+.fixed-sm-bottom{
+  position: static;
+}
+@media (max-width: 576px){
+  .fixed-sm-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 
 
