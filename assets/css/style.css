@@ -119,5 +119,8 @@ main .third-button {
   }
 }
 
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
+}
 
 
