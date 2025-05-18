@@ -129,10 +129,6 @@ main .third-button {
   .e-gift{
     height: auto;
   }
-  .choco-img{
-  width: 200px;
-  height: 200px;
-}
 @media (max-width: 576px){
   .e-image img{
     max-width: 80px;
@@ -140,8 +136,4 @@ main .third-button {
    .e-gift{
     height: 144px;
   }
-  .choco-img{
-  width: 136px;
-  height: 136px;
-}
 }
