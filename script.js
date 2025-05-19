@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', ()=> {
-     const input = document.getElementById('customPassword');
- const hidden = document.getElementById('realPassword');
+  const input = document.getElementById('customPassword');
+  const hidden = document.getElementById('realPassword');
   let realValue = '';
 
   input.addEventListener('input', e => {
@@ -18,6 +18,8 @@ window.addEventListener('DOMContentLoaded', ()=> {
     input.value  = '*'.repeat(realValue.length)
     hidden.value = realValue;
   })
+
+
 })
   
   

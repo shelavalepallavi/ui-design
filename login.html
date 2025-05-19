@@ -24,14 +24,14 @@
       <a href="./welcome.html"><img src="./assets/images/left-arrow.svg" alt="left-arrow.svg"></a>
     </div>
 
-    <div style="background:  url('./assets/images/white-image.png') no-repeat top center; background-size: cover; height: 60vh; width: 100%; "  class="position-absolute bottom-0 start-0 z-1 pt-5 px-4 d-flex flex-column  gap-3 align-items-sm-center">
+    <form action="./dashboard.html" method="GET" style="background:  url('./assets/images/white-image.png') no-repeat top center; background-size: cover; height: 60vh; width: 100%; "  class="position-absolute bottom-0 start-0 z-1 pt-5 px-4 d-flex flex-column  gap-3 align-items-sm-center">
       <p class="fw-medium" style="font-size: 24px; color: #3D0007;">Log in</p>
 
       <div>
         <label for="email" class="fw-light" style="font-size: 14px; color: #3D0007; letter-spacing: 0.01em;">Your Email</label>
         <div class="border-1 py-2 px-3 d-flex gap-3" style="border: 1px solid #989595; border-radius: 5px;">
           <img src="./assets/images/email.svg" alt="email.svg">
-          <input type="email" name="email" value="stevejobs@gmail.com" class="border-0" style="outline: none;">
+          <input type="email" name="email" required class="border-0" style="outline: none;">
         </div>
       </div>
 
@@ -39,19 +39,19 @@
         <label for="customPassword" class="fw-light" style="font-size: 14px; color: #3D0007; letter-spacing: 0.01em;">Your Password</label>
         <div class="border-1 py-2 px-3 d-flex gap-3" style="border: 1px solid #989595; border-radius: 5px;">
           <img src="./assets/images/pass.svg" alt="pass.svg">
-          <input type="text" name="password" id="customPassword" class="border-0" style="outline: none;">
-          <input type="hidden" name="password" id="realPassword" class="border-0" style="outline: none;">
+          <input type="text" name="password" id="customPassword" required class="border-0" style="outline: none;">
+          <input type="hidden" name="password" id="realPassword" required class="border-0" style="outline: none;">
         </div>
       </div>
 
       <div class="d-flex justify-content-end mt-3">
-        <a href="./dashboard.html" role="button" class="welcome-button signup text-decoration-none text-white gap-4" style="width: 160px; border-radius: 34px;">Login <img src="./assets/images/arrow.svg" alt="arrow.svg"></a>
+        <button  class="welcome-button signup text-decoration-none text-white gap-4" style="width: 160px; border-radius: 34px;">Login <img src="./assets/images/arrow.svg" alt="arrow.svg"></button>
       </div>
 
       <div class="d-flex justify-content-center align-items-end flex-grow-1 pb-2">
       <img src="./assets/images/rectangle.svg" alt="rectangle.svg">
     </div>
-  </div>
+  </form>
   </div>
 
 
