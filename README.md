@@ -50,6 +50,9 @@ ui-design-project/
 
 | Page | Preview |
 |------|---------|
+| 👋 Index | ![Welcome](assets/images/screenshots/index.png) |
+| 👋 Second | ![Welcome](assets/images/screenshots/second.png) |
+| 👋 Third | ![Welcome](assets/images/screenshots/third.png) |
 | 👋 Welcome | ![Welcome](assets/images/screenshots/welcome.png) |
 | 📝 Blog | ![Blog](assets/images/screenshots/blog.png) |
 | 🛒 Cart | ![Cart](assets/images/screenshots/cart.png) |
@@ -59,7 +62,7 @@ ui-design-project/
 | 🔐 Login | ![Login](assets/images/screenshots/login.png) |
 | 🔐 Signup | ![Signup](assets/images/screenshots/signup.png) |
 | 📍 Map | ![Map](assets/images/screenshots/map.png) |
-| 👤 Profile | ![Profile](assets/images/screenshots/profile.png) |
+| 👤 Profile | ![Profile](assets/images/screenshots/about.png) |
 
 ---
 
