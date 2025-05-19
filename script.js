@@ -1,4 +1,5 @@
- const input = document.getElementById('customPassword');
+window.addEventListener('DOMContentLoaded', ()=> {
+     const input = document.getElementById('customPassword');
  const hidden = document.getElementById('realPassword');
   let realValue = '';
 
@@ -17,7 +18,7 @@
     input.value  = '*'.repeat(realValue.length)
     hidden.value = realValue;
   })
-  
+})
   
   
   const ctx = document.getElementById('myChart').getContext('2d');
@@ -112,6 +113,7 @@
   window.addEventListener('resize', () => {
     myChart.resize();
   });
+
 
 
  
