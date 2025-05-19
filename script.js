@@ -1,4 +1,25 @@
+ const input = document.getElementById('customPassword');
+ const hidden = document.getElementById('realPassword');
+  let realValue = '';
 
+  input.addEventListener('input', e => {
+    const newValue = e.target.value;
+
+    if(newValue.length < realValue.length) {
+
+      realValue = realValue.slice(0, newValue.length);
+    }
+    else {
+      const addedChar = newValue.replace(/\*/g, '')[0] || '';
+      realValue += addedChar
+    }
+
+    input.value  = '*'.repeat(realValue.length)
+    hidden.value = realValue;
+  })
+  
+  
+  
   const ctx = document.getElementById('myChart').getContext('2d');
 
   const gradient1 = ctx.createLinearGradient(0, 0, 0, 400);
@@ -91,3 +112,6 @@
   window.addEventListener('resize', () => {
     myChart.resize();
   });
+
+
+ 

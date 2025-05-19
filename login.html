@@ -29,17 +29,18 @@
 
       <div>
         <label for="email" class="fw-light" style="font-size: 14px; color: #3D0007; letter-spacing: 0.01em;">Your Email</label>
-        <div class="border-1 py-2 px-3 d-flex gap-2" style="border: 1px solid #989595; border-radius: 5px;">
+        <div class="border-1 py-2 px-3 d-flex gap-3" style="border: 1px solid #989595; border-radius: 5px;">
           <img src="./assets/images/email.svg" alt="email.svg">
           <input type="email" name="email" value="stevejobs@gmail.com" class="border-0" style="outline: none;">
         </div>
       </div>
 
       <div>
-        <label for="password" class="fw-light" style="font-size: 14px; color: #3D0007; letter-spacing: 0.01em;">Your Email</label>
-        <div class="border-1 py-2 px-3 d-flex gap-2" style="border: 1px solid #989595; border-radius: 5px;">
+        <label for="customPassword" class="fw-light" style="font-size: 14px; color: #3D0007; letter-spacing: 0.01em;">Your Password</label>
+        <div class="border-1 py-2 px-3 d-flex gap-3" style="border: 1px solid #989595; border-radius: 5px;">
           <img src="./assets/images/pass.svg" alt="pass.svg">
-          <input type="password" name="password" value="9786876" class="border-0" style="outline: none;">
+          <input type="text" name="password" id="customPassword" class="border-0" style="outline: none;">
+          <input type="hidden" name="password" id="realPassword" class="border-0" style="outline: none;">
         </div>
       </div>
 
@@ -55,6 +56,7 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
 
