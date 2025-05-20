@@ -137,3 +137,17 @@ main .third-button {
     height: 144px;
   }
 }
+
+.ring-progress {
+        stroke: #6fcf97;
+        stroke-linecap: round;
+        stroke-dasharray: 440;
+        stroke-dashoffset: 440;
+        animation: drawProgress 2s ease-out forwards;
+      }
+
+@keyframes drawProgress {
+        to {
+          stroke-dashoffset: 88;
+        }
+      }
