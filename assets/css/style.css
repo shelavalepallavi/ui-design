@@ -97,26 +97,9 @@ main .third-button {
 .about-para2{
   font-size: 13px;
 }
-@media (min-width: 768px) {
-  .about-para1{
-    font-size: 24px;
-  }
-  .about-para2{
-  font-size: 1rem;
-}
-}
 
 .fixed-sm-bottom{
   position: static;
-}
-@media (max-width: 576px){
-  .fixed-sm-bottom{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 0 14px;
-  }
 }
 
 .hide-scrollbar::-webkit-scrollbar{
@@ -129,6 +112,33 @@ main .third-button {
   .e-gift{
     height: auto;
   }
+.ring-progress {
+    stroke: #6fcf97;
+        stroke-linecap: round;
+        stroke-dasharray: 440;
+        stroke-dashoffset: 440;
+        animation: drawProgress 2s ease-out forwards;
+  }
+
+
+@media (min-width: 768px) {
+  .about-para1{
+    font-size: 24px;
+  }
+  .about-para2{
+  font-size: 1rem;
+}
+}
+@media (max-width: 576px){
+  .fixed-sm-bottom{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 14px;
+  }
+}
+
 @media (max-width: 576px){
   .e-image img{
     max-width: 80px;
@@ -138,16 +148,10 @@ main .third-button {
   }
 }
 
-.ring-progress {
-        stroke: #6fcf97;
-        stroke-linecap: round;
-        stroke-dasharray: 440;
-        stroke-dashoffset: 440;
-        animation: drawProgress 2s ease-out forwards;
-      }
+
 
 @keyframes drawProgress {
-        to {
-          stroke-dashoffset: 88;
-        }
-      }
+  to {
+    stroke-dashoffset: 88;
+  }
+}

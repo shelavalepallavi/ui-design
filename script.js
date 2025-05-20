@@ -1,41 +1,23 @@
 window.addEventListener('DOMContentLoaded', ()=> {
-  // const input = document.getElementById('customPassword');
-  // const hidden = document.getElementById('realPassword');
-  // let realValue = '';
+  const input = document.getElementById('customPassword');
+  const hidden = document.getElementById('realPassword');
+  let realValue = '';
 
-  // input.addEventListener('input', e => {
-  //   const newValue = e.target.value;
+  input.addEventListener('input', e => {
+    const newValue = e.target.value;
 
-  //   if(newValue.length < realValue.length) {
+    if(newValue.length < realValue.length) {
 
-  //     realValue = realValue.slice(0, newValue.length);
-  //   }
-  //   else {
-  //     const addedChar = newValue.replace(/\*/g, '')[0] || '';
-  //     realValue += addedChar
-  //   }
+      realValue = realValue.slice(0, newValue.length);
+    }
+    else {
+      const addedChar = newValue.replace(/\*/g, '')[0] || '';
+      realValue += addedChar
+    }
 
-  //   input.value  = '*'.repeat(realValue.length)
-  //   hidden.value = realValue;
-  // })
-
-
-  const canvas = document.getElementById('myCanvas');
-  const ctx = canvas.getContext('2d')
-
-  // Set common text properties
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-
-  // Draw "345" (larger, centered)
-  ctx.font = 'bold 20px Arial';
-  ctx.fillStyle = '#000';
-  ctx.fillText('345', canvas.width / 2, canvas.height / 2 - 10);
-
-  // Draw "REACH 8.1%" (smaller, below the number)
-  ctx.font = '12px Arial';
-  ctx.fillStyle = '#000';
-  ctx.fillText('REACH 8.1%', canvas.width / 2, canvas.height / 2 + 15);
+    input.value  = '*'.repeat(realValue.length)
+    hidden.value = realValue;
+  })
 })
   
   
