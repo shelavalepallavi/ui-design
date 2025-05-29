@@ -14,8 +14,8 @@ A modern UI Design project built using **HTML**, **CSS**, **JavaScript**, and **
 - 🔐 **Login & Signup Forms**
 - 📍 **Interactive Map View**
 - 👤 **User Profile Page**
-- 👋 **Welcome / Landing Page**
-- 🎨 **Bootstrap 5** for Layout and Components
+- 👋 **Welcome**
+- 🎨 **Bootstrap 5**
 
 ---
 
