@@ -18,6 +18,20 @@ window.addEventListener('DOMContentLoaded', ()=> {
     input.value  = '*'.repeat(realValue.length)
     hidden.value = realValue;
   })
+
+
+  document.querySelectorAll('.hover-wrapper img').forEach(img => {
+  img.addEventListener('click', () => {
+    // Remove active from all first if needed (for single selection)
+    document.querySelectorAll('.hover-wrapper').forEach(wrapper => {
+      wrapper.classList.remove('active');
+    });
+
+    // Then add to the clicked image's wrapper
+    img.closest('.hover-wrapper').classList.add('active');
+  });
+});
+
 })
   
   

@@ -120,7 +120,29 @@ main .third-button {
         animation: drawProgress 2s ease-out forwards;
   }
 
+  .hover-wrapper:hover{
+    background: #cee3fa;
+    color: #133774;
+  }
+  .hover-wrapper:hover img{
+    filter: brightness(0) saturate(100%) invert(16%) sepia(86%) saturate(630%) hue-rotate(209deg) brightness(90%) contrast(98%);
+  }
 
+.hover-wrapper:active {
+  background: #78aeeb;
+  color: #0f2e5e;
+}
+
+.hover-wrapper:active img {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(64%) saturate(620%) hue-rotate(200deg) brightness(85%) contrast(90%);
+}
+
+  
+
+  .hover-dash{
+    cursor: pointer;
+    background: #daaaed;
+  }
 @media (min-width: 768px) {
   .about-para1{
     font-size: 24px;
