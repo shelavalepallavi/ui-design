@@ -7,7 +7,7 @@ A modern UI Design project built using **HTML**, **CSS**, **JavaScript**, and **
 ## 🚀 Features
 
 - 🖥️ **Responsive Design** (Mobile, Tablet, Desktop)
-- 🛒 **E-commerce Pages** (Cart, Product Display)
+- 🛒 **E-commerce Pages** (Cart, Product Display).
 - 📝 **Blog Pages**
 - 📊 **Dashboard Interface**
 - 💬 **Live Chat UI**
