@@ -81,7 +81,7 @@ open index.html
 
 
 🛠️ Technologies Used
-HTML5.
+HTML5
 
 CSS3
 
