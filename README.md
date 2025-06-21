@@ -15,7 +15,7 @@ A modern UI Design project built using **HTML**, **CSS**, **JavaScript**, and **
 - 📍 **Interactive Map View**
 - 👤 **User Profile Page**
 - 👋 **Welcome**
-- 🎨 **Bootstrap 5**.
+- 🎨 **Bootstrap 5**
 
 ---
 
